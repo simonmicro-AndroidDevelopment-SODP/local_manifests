@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="simonmicros-forks" fetch="https://github.com/simonmicro-AndroidDevelopment-SODP/" />
+
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="t-mr1" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="t-mr1" />
 
@@ -16,8 +18,8 @@
 <project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="sony" revision="t-mr1" />
 
 <!--sm6125-->
-<project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sony" revision="t-mr1" />
-<project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="sony" revision="t-mr1" />
+<project path="device/sony/seine" name="device-sony-seine" groups="device" remote="simonmicros-forks" revision="simonmicro/t-mr1" />
+<project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="simonmicros-forks" revision="simonmicro/t-mr1" />
 
 <!--sm6350-->
 <project path="device/sony/lena" name="device-sony-lena" groups="device" remote="sony" revision="t-mr1" />
